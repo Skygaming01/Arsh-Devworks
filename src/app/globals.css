@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600&display=swap');
+
+body{
+font-family: Inter, sans-serif;
+}
+
+h1,h2,h3{
+font-family: 'Playfair Display', serif;
+}
+
+.reveal{
+opacity:0;
+transform:translateY(40px);
+transition:all 0.8s ease;
+}
+
+.reveal.show{
+opacity:1;
+transform:translateY(0);
+}
